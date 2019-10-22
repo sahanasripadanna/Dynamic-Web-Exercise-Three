@@ -11,4 +11,4 @@ app.use('/about', aboutRoute);
 //--- Serve Static Images
 app.use('/static', express.static('public'));
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(port, () => console.log(`Exercise Three is listening on port ${port}!`));
